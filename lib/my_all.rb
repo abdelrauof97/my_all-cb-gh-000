@@ -7,5 +7,7 @@ def my_all?(collection)
     i += 1
   end
 end
-
-my_all(numbers)
+numbers = [1,2,3]
+my_all(numbers) { |x|
+  x < 2
+}
