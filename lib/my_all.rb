@@ -7,7 +7,11 @@ def my_all?(collection)
     block_return_values << yield(collection[i])
     i += 1
   end
-  block_return_values.include
+  if
+  block_return_values.include 
+    e?(false)
+  else
+    true
 end
 numbers = [1,2,3]
 binding.pry
