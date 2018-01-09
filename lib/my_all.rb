@@ -9,5 +9,5 @@ def my_all?(collection)
 end
 numbers = [1,2,3]
 binding.pry
-my_all(numbers) { |x| x < 2 }
+my_all?(numbers) { |x| x < 2 }
 #ruby lib/my_all.rb
