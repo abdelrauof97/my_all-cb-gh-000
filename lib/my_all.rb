@@ -8,6 +8,7 @@ def my_all?(collection)
   end
 end
 numbers = [1,2,3]
+binding.pry
 my_all(numbers) { |x|
   x < 2
 }
