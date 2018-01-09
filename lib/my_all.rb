@@ -12,6 +12,7 @@ def my_all?(collection)
     false
   else
     true
+  end
 end
 numbers = [1,2,3]
 binding.pry
