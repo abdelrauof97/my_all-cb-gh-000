@@ -12,3 +12,5 @@ binding.pry
 my_all(numbers) { |x|
   x < 2
 }
+
+#
